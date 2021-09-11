@@ -27,43 +27,43 @@ function Home() {
           <h2 className="text-5xl">Education</h2>
           <div className="flex">
             <div className="">
-              <svg height="300" width="auto">
+              <svg height="300" width="5em">
                 {/* VERTICAL LINE */}
                 <line
-                  x1="200"
+                  x1="20"
                   y1="0"
-                  x2="200"
+                  x2="20"
                   y2="201"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <line
-                  x1="200"
+                  x1="20"
                   y1="50"
-                  x2="250"
+                  x2="50"
                   y2="50"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <circle
-                  cx="250"
+                  cx="50"
                   cy="50"
                   r="5"
                   stroke="rgb(99, 102, 241)"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="white"
                 />
                 <line
-                  x1="200"
+                  x1="20"
                   y1="200"
-                  x2="250"
+                  x2="50"
                   y2="200"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <circle
-                  cx="250"
+                  cx="50"
                   cy="200"
                   r="5"
                   stroke="rgb(99, 102, 241)"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="white"
                 />
                 Sorry, your browser does not support inline SVG.
@@ -92,43 +92,43 @@ function Home() {
           <h2 className="text-5xl">Experience</h2>
           <div className="flex">
             <div className="">
-              <svg height="300" width="auto">
+              <svg height="300" width="5em">
                 {/* VERTICAL LINE */}
                 <line
-                  x1="200"
+                  x1="20"
                   y1="0"
-                  x2="200"
+                  x2="20"
                   y2="201"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <line
-                  x1="200"
+                  x1="20"
                   y1="50"
-                  x2="250"
+                  x2="50"
                   y2="50"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <circle
-                  cx="250"
+                  cx="50"
                   cy="50"
                   r="5"
                   stroke="rgb(99, 102, 241)"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="white"
                 />
                 <line
-                  x1="200"
+                  x1="20"
                   y1="200"
-                  x2="250"
+                  x2="50"
                   y2="200"
                   style={{ stroke: "rgb(99, 102, 241)", strokeWidth: "2" }}
                 />
                 <circle
-                  cx="250"
+                  cx="50"
                   cy="200"
                   r="5"
                   stroke="rgb(99, 102, 241)"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="white"
                 />
                 Sorry, your browser does not support inline SVG.
@@ -155,7 +155,7 @@ function Home() {
             <p className="text-3xl"> Under Construction</p>
           </div> */}
           {/*  P R O J E C T S */}
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
             {/* AMAZON CLONE */}
             <div className="shadow-2xl rounded-md">
               <img src={amazon_clone_img} alt="" className="rounded-t-md" />
